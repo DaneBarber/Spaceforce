@@ -1,6 +1,6 @@
 import Axios from 'axios'
-import { baseURL } from '../env'
+
 export const api = Axios.create({
-  baseURL,
+  baseURL: 'https://api.nasa.gov/planetary/apod?api_key=0kLRRaPkXAvhbBdHByysnCKUWYrEkofPcnqN55WO',
   timeout: 8000
 })
